@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;1,300&display=swap');
+body{
+	background-color: antiquewhite;overflow-y: hidden;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	font-family: 'Barlow', sans-serif;
+	width: 100%;
+}
+
+nav ul{
+	display: flex;
+	list-style-type: none;
+	height: 65px;
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+
+.brand img{
+	width: 52px;
+	height: inherit;
+}
+.div{
+	height: inherit;
+	width: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 1.3rem;
+	margin-left: 19px;
+	font-weight: bolder;
+}
+.div2{
+	height: inherit;
+	width: 105px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 30px;
+}
+.div3{
+	min-height: 60vh;
+	background-color: black;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	margin: 23px auto;
+	width: 70%;
+	border-radius: 12px;
+	padding: 32px;
+	background-image: url('bg.jpg');
+	background-size: 153vh;
+
+}
+.track{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	z-index: 1;
+	margin-top: 34px;
+	margin-left: 5px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('cover.jpg')
+}
+
+.main{
+	width: 80%;
+	height: 100px;
+	display: flex;
+	justify-content: flex-start;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: absolute;
+}
+.trackname{
+	overflow: hidden;
+	width: 70%;
+	height: 20px;
+	position: absolute;
+	z-index: 1;
+	bottom: 2%;
+	left: 4%;
+	font-size: 15px;
+
+}
+.div5{
+	position: sticky;
+	height: 130px;
+	background-color: black;
+	color: white;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.div6{
+	margin-top: 14px;
+}
+.fa-backward-step{
+	font-size: 40px;}
+.fa-circle-play{
+	font-size: 40px;}
+.fa-forward-step{
+	font-size: 40px;}
+#myprogressbar{
+	width: 80vw;
+	text-align: center;
+}
